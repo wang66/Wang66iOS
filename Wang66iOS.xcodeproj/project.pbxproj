@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080E8FA01ED4A43900729E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 080E8F9F1ED4A43900729E05 /* main.m */; };
+		080E8FA31ED4A43900729E05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 080E8FA21ED4A43900729E05 /* AppDelegate.m */; };
+		080E8FA61ED4A43900729E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080E8FA51ED4A43900729E05 /* ViewController.m */; };
+		080E8FA91ED4A43900729E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080E8FA71ED4A43900729E05 /* Main.storyboard */; };
+		080E8FAB1ED4A43900729E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080E8FAA1ED4A43900729E05 /* Assets.xcassets */; };
+		080E8FAE1ED4A43900729E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080E8FAC1ED4A43900729E05 /* LaunchScreen.storyboard */; };
+		080E8FB91ED4A43900729E05 /* Wang66iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 080E8FB81ED4A43900729E05 /* Wang66iOSTests.m */; };
+		080E8FC41ED4A43900729E05 /* Wang66iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 080E8FC31ED4A43900729E05 /* Wang66iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		080E8FB51ED4A43900729E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080E8F931ED4A43900729E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080E8F9A1ED4A43900729E05;
+			remoteInfo = Wang66iOS;
+		};
+		080E8FC01ED4A43900729E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080E8F931ED4A43900729E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080E8F9A1ED4A43900729E05;
+			remoteInfo = Wang66iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080E8F9B1ED4A43900729E05 /* Wang66iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wang66iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080E8F9F1ED4A43900729E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		080E8FA11ED4A43900729E05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		080E8FA21ED4A43900729E05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		080E8FA41ED4A43900729E05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		080E8FA51ED4A43900729E05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		080E8FA81ED4A43900729E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080E8FAA1ED4A43900729E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080E8FAD1ED4A43900729E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080E8FAF1ED4A43900729E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080E8FB41ED4A43900729E05 /* Wang66iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wang66iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080E8FB81ED4A43900729E05 /* Wang66iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wang66iOSTests.m; sourceTree = "<group>"; };
+		080E8FBA1ED4A43900729E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080E8FBF1ED4A43900729E05 /* Wang66iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wang66iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080E8FC31ED4A43900729E05 /* Wang66iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wang66iOSUITests.m; sourceTree = "<group>"; };
+		080E8FC51ED4A43900729E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080E8F981ED4A43900729E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E8FB11ED4A43900729E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E8FBC1ED4A43900729E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E8F921ED4A43900729E05 = {
+			isa = PBXGroup;
+			children = (
+				080E8F9D1ED4A43900729E05 /* Wang66iOS */,
+				080E8FB71ED4A43900729E05 /* Wang66iOSTests */,
+				080E8FC21ED4A43900729E05 /* Wang66iOSUITests */,
+				080E8F9C1ED4A43900729E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		080E8F9C1ED4A43900729E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080E8F9B1ED4A43900729E05 /* Wang66iOS.app */,
+				080E8FB41ED4A43900729E05 /* Wang66iOSTests.xctest */,
+				080E8FBF1ED4A43900729E05 /* Wang66iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080E8F9D1ED4A43900729E05 /* Wang66iOS */ = {
+			isa = PBXGroup;
+			children = (
+				080E8FA11ED4A43900729E05 /* AppDelegate.h */,
+				080E8FA21ED4A43900729E05 /* AppDelegate.m */,
+				080E8FA41ED4A43900729E05 /* ViewController.h */,
+				080E8FA51ED4A43900729E05 /* ViewController.m */,
+				080E8FA71ED4A43900729E05 /* Main.storyboard */,
+				080E8FAA1ED4A43900729E05 /* Assets.xcassets */,
+				080E8FAC1ED4A43900729E05 /* LaunchScreen.storyboard */,
+				080E8FAF1ED4A43900729E05 /* Info.plist */,
+				080E8F9E1ED4A43900729E05 /* Supporting Files */,
+			);
+			path = Wang66iOS;
+			sourceTree = "<group>";
+		};
+		080E8F9E1ED4A43900729E05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				080E8F9F1ED4A43900729E05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		080E8FB71ED4A43900729E05 /* Wang66iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				080E8FB81ED4A43900729E05 /* Wang66iOSTests.m */,
+				080E8FBA1ED4A43900729E05 /* Info.plist */,
+			);
+			path = Wang66iOSTests;
+			sourceTree = "<group>";
+		};
+		080E8FC21ED4A43900729E05 /* Wang66iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				080E8FC31ED4A43900729E05 /* Wang66iOSUITests.m */,
+				080E8FC51ED4A43900729E05 /* Info.plist */,
+			);
+			path = Wang66iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080E8F9A1ED4A43900729E05 /* Wang66iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080E8FC81ED4A43900729E05 /* Build configuration list for PBXNativeTarget "Wang66iOS" */;
+			buildPhases = (
+				080E8F971ED4A43900729E05 /* Sources */,
+				080E8F981ED4A43900729E05 /* Frameworks */,
+				080E8F991ED4A43900729E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wang66iOS;
+			productName = Wang66iOS;
+			productReference = 080E8F9B1ED4A43900729E05 /* Wang66iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		080E8FB31ED4A43900729E05 /* Wang66iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080E8FCB1ED4A43900729E05 /* Build configuration list for PBXNativeTarget "Wang66iOSTests" */;
+			buildPhases = (
+				080E8FB01ED4A43900729E05 /* Sources */,
+				080E8FB11ED4A43900729E05 /* Frameworks */,
+				080E8FB21ED4A43900729E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080E8FB61ED4A43900729E05 /* PBXTargetDependency */,
+			);
+			name = Wang66iOSTests;
+			productName = Wang66iOSTests;
+			productReference = 080E8FB41ED4A43900729E05 /* Wang66iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		080E8FBE1ED4A43900729E05 /* Wang66iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080E8FCE1ED4A43900729E05 /* Build configuration list for PBXNativeTarget "Wang66iOSUITests" */;
+			buildPhases = (
+				080E8FBB1ED4A43900729E05 /* Sources */,
+				080E8FBC1ED4A43900729E05 /* Frameworks */,
+				080E8FBD1ED4A43900729E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080E8FC11ED4A43900729E05 /* PBXTargetDependency */,
+			);
+			name = Wang66iOSUITests;
+			productName = Wang66iOSUITests;
+			productReference = 080E8FBF1ED4A43900729E05 /* Wang66iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080E8F931ED4A43900729E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wyw;
+				TargetAttributes = {
+					080E8F9A1ED4A43900729E05 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					080E8FB31ED4A43900729E05 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 080E8F9A1ED4A43900729E05;
+					};
+					080E8FBE1ED4A43900729E05 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 080E8F9A1ED4A43900729E05;
+					};
+				};
+			};
+			buildConfigurationList = 080E8F961ED4A43900729E05 /* Build configuration list for PBXProject "Wang66iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080E8F921ED4A43900729E05;
+			productRefGroup = 080E8F9C1ED4A43900729E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080E8F9A1ED4A43900729E05 /* Wang66iOS */,
+				080E8FB31ED4A43900729E05 /* Wang66iOSTests */,
+				080E8FBE1ED4A43900729E05 /* Wang66iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080E8F991ED4A43900729E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E8FAE1ED4A43900729E05 /* LaunchScreen.storyboard in Resources */,
+				080E8FAB1ED4A43900729E05 /* Assets.xcassets in Resources */,
+				080E8FA91ED4A43900729E05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E8FB21ED4A43900729E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E8FBD1ED4A43900729E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080E8F971ED4A43900729E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E8FA61ED4A43900729E05 /* ViewController.m in Sources */,
+				080E8FA31ED4A43900729E05 /* AppDelegate.m in Sources */,
+				080E8FA01ED4A43900729E05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E8FB01ED4A43900729E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E8FB91ED4A43900729E05 /* Wang66iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080E8FBB1ED4A43900729E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E8FC41ED4A43900729E05 /* Wang66iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		080E8FB61ED4A43900729E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080E8F9A1ED4A43900729E05 /* Wang66iOS */;
+			targetProxy = 080E8FB51ED4A43900729E05 /* PBXContainerItemProxy */;
+		};
+		080E8FC11ED4A43900729E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080E8F9A1ED4A43900729E05 /* Wang66iOS */;
+			targetProxy = 080E8FC01ED4A43900729E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		080E8FA71ED4A43900729E05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080E8FA81ED4A43900729E05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		080E8FAC1ED4A43900729E05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080E8FAD1ED4A43900729E05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		080E8FC61ED4A43900729E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		080E8FC71ED4A43900729E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080E8FC91ED4A43900729E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wang66iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyw.Wang66iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		080E8FCA1ED4A43900729E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wang66iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyw.Wang66iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		080E8FCC1ED4A43900729E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Wang66iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyw.Wang66iOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wang66iOS.app/Wang66iOS";
+			};
+			name = Debug;
+		};
+		080E8FCD1ED4A43900729E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Wang66iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyw.Wang66iOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wang66iOS.app/Wang66iOS";
+			};
+			name = Release;
+		};
+		080E8FCF1ED4A43900729E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Wang66iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyw.Wang66iOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wang66iOS;
+			};
+			name = Debug;
+		};
+		080E8FD01ED4A43900729E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Wang66iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyw.Wang66iOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wang66iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080E8F961ED4A43900729E05 /* Build configuration list for PBXProject "Wang66iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080E8FC61ED4A43900729E05 /* Debug */,
+				080E8FC71ED4A43900729E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080E8FC81ED4A43900729E05 /* Build configuration list for PBXNativeTarget "Wang66iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080E8FC91ED4A43900729E05 /* Debug */,
+				080E8FCA1ED4A43900729E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		080E8FCB1ED4A43900729E05 /* Build configuration list for PBXNativeTarget "Wang66iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080E8FCC1ED4A43900729E05 /* Debug */,
+				080E8FCD1ED4A43900729E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		080E8FCE1ED4A43900729E05 /* Build configuration list for PBXNativeTarget "Wang66iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080E8FCF1ED4A43900729E05 /* Debug */,
+				080E8FD01ED4A43900729E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080E8F931ED4A43900729E05 /* Project object */;
+}
