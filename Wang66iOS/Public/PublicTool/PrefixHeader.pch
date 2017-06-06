@@ -1,0 +1,69 @@
+//
+//  PrefixHeader.pch
+//  Wang66iOS
+//
+//  Created by wang66 on 2017/5/24.
+//  Copyright © 2017年 wyw. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#import "GlobalHeaderFile.h"
+
+#import "GlobalConst.h"
+
+#import "URLPath.h"
+
+
+
+
+#import "YWLabel.h"
+
+#import "YWAutoLayout.h"
+
+#import "YWAlertTool.h"
+
+#import "HttpManager.h"
+
+#import "UILabel+YWExtension.h"
+
+
+
+
+
+
+#import "MJExtension.h"
+
+#import "MJRefresh.h"
+
+#import "AFNetworking.h"
+
+
+#endif
+
+
+
+
+
+
+
+#ifdef DEBUG
+
+#define YWDebugLog(...) printf("第行: %s\n\n", [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+
+#else
+
+#define RMTDebugLog(...)
+
+#endif
+
+
+
+
+
+
